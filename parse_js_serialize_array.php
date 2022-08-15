@@ -1,6 +1,6 @@
 <?php
 
-public function prepareRequestData($req)
+public function parseJsSerializedArray($req)
 {
     $arData = [];
     foreach($req as $row){
